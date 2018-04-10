@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="BORNEA30401" id="BORNEA30401">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Numero" type="string"></SimpleField>
+	<SimpleField name="Commune" type="string"></SimpleField>
+	<SimpleField name="POINT_X" type="float"></SimpleField>
+	<SimpleField name="POINT_Y" type="float"></SimpleField>
+</Schema>
+<Folder><name>BORNEA30401</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#BORNEA30401">
+		<SimpleData name="OBJECTID">576</SimpleData>
+		<SimpleData name="Numero">A30401</SimpleData>
+		<SimpleData name="Commune">Saint Pierre</SimpleData>
+		<SimpleData name="POINT_X">345230.48156099999</SimpleData>
+		<SimpleData name="POINT_Y">7641880.56292000040</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>55.5077493164425,-21.3184009051324</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
